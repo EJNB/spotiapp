@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class NavbarComponent implements OnInit {
-  url = '../../../assets/img/banner-ico.png';
+  url = 'assets/img/banner-ico.png';
   constructor() { }
 
   ngOnInit() {
