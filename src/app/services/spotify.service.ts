@@ -33,4 +33,11 @@ export class SpotifyService {
 
     return this.http.get(url, {headers});
   }
+
+  getArtista(id: string) {
+    return this.getQuery(`artist/${id}`);
+      /*.pipe(
+        map(data => )
+      );*/
+  }
 }
