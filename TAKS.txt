@@ -1,0 +1,27 @@
+copiar la salva dl proyecto de 02-pipes
+
+
+
+
+
+
+
+entrar a la parte de docs / webapi / authorization guide
+para obtener el token debemos hacer una peticion a la url mediante el metodo post
+https://acounts.spotify.com/api/token
+
+ir a web console/ sidebar a Browse  esto es para buscar los nuevos lanzamientos de spotify
+click en el la url
+ GET /v1/browse/new-releases   Get new releases
+	click en get token par genere mi token segun los datos de mi cuenta de spotify
+
+
+buscar en la parte de web console la parte de buscar
+y find search item in sidebar
+
+
+grant_type client_credentials
+client_id 80259d8d5c0c47c78a2e966c6cc6112b
+client_secret 3d9e9f366c8b4b4b8a1347940ff345f9
+
+https://api.spotify.com/v1/browse/new-releases
